@@ -1,0 +1,43 @@
+.navigation {
+    width: 100%;
+    padding: 1rem 0;
+    background: linear-gradient(to left, #264D59, #43978d, #f9e07f);
+    display: grid;
+    grid-template: 1fr / 100px 1fr 250px 250px 50px;
+    place-items: center;
+    a {
+        color: black;
+    }
+    nav {
+        display: flex;
+        justify-content: space-evenly;
+        width: 30%;
+    }
+}
+
+.burger {
+    width: 2em;
+    height: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+
+    >div {
+        height: 3px;
+        background-color: black;
+        border-radius: 1.5px;
+    }
+}
+
+.exchange {
+    display: flex;
+    gap: 10px;
+}
+
+.link--highlighted {
+    text-transform: uppercase;
+    font-weight: bold;
+}
